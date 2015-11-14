@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45B6B4561BF78D8F00A38C7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B4551BF78D8F00A38C7C /* main.m */; };
+		45B6B4591BF78D8F00A38C7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B4581BF78D8F00A38C7C /* AppDelegate.m */; };
+		45B6B45C1BF78D9000A38C7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B45B1BF78D9000A38C7C /* ViewController.m */; };
+		45B6B45F1BF78D9000A38C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B6B45D1BF78D9000A38C7C /* Main.storyboard */; };
+		45B6B4611BF78D9000A38C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B6B4601BF78D9000A38C7C /* Assets.xcassets */; };
+		45B6B4641BF78D9000A38C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B6B4621BF78D9000A38C7C /* LaunchScreen.storyboard */; };
+		45B6B46F1BF78D9000A38C7C /* Google_searchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B46E1BF78D9000A38C7C /* Google_searchTests.m */; };
+		45B6B47A1BF78D9000A38C7C /* Google_searchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B4791BF78D9000A38C7C /* Google_searchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B6B46B1BF78D9000A38C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B6B4491BF78D8F00A38C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B6B4501BF78D8F00A38C7C;
+			remoteInfo = "Google search";
+		};
+		45B6B4761BF78D9000A38C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B6B4491BF78D8F00A38C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B6B4501BF78D8F00A38C7C;
+			remoteInfo = "Google search";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45B6B4511BF78D8F00A38C7C /* Google search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B6B4551BF78D8F00A38C7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45B6B4571BF78D8F00A38C7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45B6B4581BF78D8F00A38C7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45B6B45A1BF78D8F00A38C7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45B6B45B1BF78D9000A38C7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45B6B45E1BF78D9000A38C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45B6B4601BF78D9000A38C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45B6B4631BF78D9000A38C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45B6B4651BF78D9000A38C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B6B46A1BF78D9000A38C7C /* Google searchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google searchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B6B46E1BF78D9000A38C7C /* Google_searchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_searchTests.m; sourceTree = "<group>"; };
+		45B6B4701BF78D9000A38C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B6B4751BF78D9000A38C7C /* Google searchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google searchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B6B4791BF78D9000A38C7C /* Google_searchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_searchUITests.m; sourceTree = "<group>"; };
+		45B6B47B1BF78D9000A38C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45B6B44E1BF78D8F00A38C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B6B4671BF78D9000A38C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B6B4721BF78D9000A38C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45B6B4481BF78D8F00A38C7C = {
+			isa = PBXGroup;
+			children = (
+				45B6B4531BF78D8F00A38C7C /* Google search */,
+				45B6B46D1BF78D9000A38C7C /* Google searchTests */,
+				45B6B4781BF78D9000A38C7C /* Google searchUITests */,
+				45B6B4521BF78D8F00A38C7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45B6B4521BF78D8F00A38C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45B6B4511BF78D8F00A38C7C /* Google search.app */,
+				45B6B46A1BF78D9000A38C7C /* Google searchTests.xctest */,
+				45B6B4751BF78D9000A38C7C /* Google searchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45B6B4531BF78D8F00A38C7C /* Google search */ = {
+			isa = PBXGroup;
+			children = (
+				45B6B4571BF78D8F00A38C7C /* AppDelegate.h */,
+				45B6B4581BF78D8F00A38C7C /* AppDelegate.m */,
+				45B6B45A1BF78D8F00A38C7C /* ViewController.h */,
+				45B6B45B1BF78D9000A38C7C /* ViewController.m */,
+				45B6B45D1BF78D9000A38C7C /* Main.storyboard */,
+				45B6B4601BF78D9000A38C7C /* Assets.xcassets */,
+				45B6B4621BF78D9000A38C7C /* LaunchScreen.storyboard */,
+				45B6B4651BF78D9000A38C7C /* Info.plist */,
+				45B6B4541BF78D8F00A38C7C /* Supporting Files */,
+			);
+			path = "Google search";
+			sourceTree = "<group>";
+		};
+		45B6B4541BF78D8F00A38C7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45B6B4551BF78D8F00A38C7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45B6B46D1BF78D9000A38C7C /* Google searchTests */ = {
+			isa = PBXGroup;
+			children = (
+				45B6B46E1BF78D9000A38C7C /* Google_searchTests.m */,
+				45B6B4701BF78D9000A38C7C /* Info.plist */,
+			);
+			path = "Google searchTests";
+			sourceTree = "<group>";
+		};
+		45B6B4781BF78D9000A38C7C /* Google searchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45B6B4791BF78D9000A38C7C /* Google_searchUITests.m */,
+				45B6B47B1BF78D9000A38C7C /* Info.plist */,
+			);
+			path = "Google searchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45B6B4501BF78D8F00A38C7C /* Google search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B6B47E1BF78D9000A38C7C /* Build configuration list for PBXNativeTarget "Google search" */;
+			buildPhases = (
+				45B6B44D1BF78D8F00A38C7C /* Sources */,
+				45B6B44E1BF78D8F00A38C7C /* Frameworks */,
+				45B6B44F1BF78D8F00A38C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google search";
+			productName = "Google search";
+			productReference = 45B6B4511BF78D8F00A38C7C /* Google search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45B6B4691BF78D9000A38C7C /* Google searchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B6B4811BF78D9000A38C7C /* Build configuration list for PBXNativeTarget "Google searchTests" */;
+			buildPhases = (
+				45B6B4661BF78D9000A38C7C /* Sources */,
+				45B6B4671BF78D9000A38C7C /* Frameworks */,
+				45B6B4681BF78D9000A38C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B6B46C1BF78D9000A38C7C /* PBXTargetDependency */,
+			);
+			name = "Google searchTests";
+			productName = "Google searchTests";
+			productReference = 45B6B46A1BF78D9000A38C7C /* Google searchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45B6B4741BF78D9000A38C7C /* Google searchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B6B4841BF78D9000A38C7C /* Build configuration list for PBXNativeTarget "Google searchUITests" */;
+			buildPhases = (
+				45B6B4711BF78D9000A38C7C /* Sources */,
+				45B6B4721BF78D9000A38C7C /* Frameworks */,
+				45B6B4731BF78D9000A38C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B6B4771BF78D9000A38C7C /* PBXTargetDependency */,
+			);
+			name = "Google searchUITests";
+			productName = "Google searchUITests";
+			productReference = 45B6B4751BF78D9000A38C7C /* Google searchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45B6B4491BF78D8F00A38C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Zaslavskaya Evheniya";
+				TargetAttributes = {
+					45B6B4501BF78D8F00A38C7C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					45B6B4691BF78D9000A38C7C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 45B6B4501BF78D8F00A38C7C;
+					};
+					45B6B4741BF78D9000A38C7C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 45B6B4501BF78D8F00A38C7C;
+					};
+				};
+			};
+			buildConfigurationList = 45B6B44C1BF78D8F00A38C7C /* Build configuration list for PBXProject "Google search" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45B6B4481BF78D8F00A38C7C;
+			productRefGroup = 45B6B4521BF78D8F00A38C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45B6B4501BF78D8F00A38C7C /* Google search */,
+				45B6B4691BF78D9000A38C7C /* Google searchTests */,
+				45B6B4741BF78D9000A38C7C /* Google searchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45B6B44F1BF78D8F00A38C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B6B4641BF78D9000A38C7C /* LaunchScreen.storyboard in Resources */,
+				45B6B4611BF78D9000A38C7C /* Assets.xcassets in Resources */,
+				45B6B45F1BF78D9000A38C7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B6B4681BF78D9000A38C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B6B4731BF78D9000A38C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45B6B44D1BF78D8F00A38C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B6B45C1BF78D9000A38C7C /* ViewController.m in Sources */,
+				45B6B4591BF78D8F00A38C7C /* AppDelegate.m in Sources */,
+				45B6B4561BF78D8F00A38C7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B6B4661BF78D9000A38C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B6B46F1BF78D9000A38C7C /* Google_searchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B6B4711BF78D9000A38C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B6B47A1BF78D9000A38C7C /* Google_searchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45B6B46C1BF78D9000A38C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45B6B4501BF78D8F00A38C7C /* Google search */;
+			targetProxy = 45B6B46B1BF78D9000A38C7C /* PBXContainerItemProxy */;
+		};
+		45B6B4771BF78D9000A38C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45B6B4501BF78D8F00A38C7C /* Google search */;
+			targetProxy = 45B6B4761BF78D9000A38C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45B6B45D1BF78D9000A38C7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45B6B45E1BF78D9000A38C7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45B6B4621BF78D9000A38C7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45B6B4631BF78D9000A38C7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45B6B47C1BF78D9000A38C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45B6B47D1BF78D9000A38C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45B6B47F1BF78D9000A38C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google search/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaslavskaya.Google-search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45B6B4801BF78D9000A38C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google search/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaslavskaya.Google-search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45B6B4821BF78D9000A38C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Google searchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaslavskaya.Google-searchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google search.app/Google search";
+			};
+			name = Debug;
+		};
+		45B6B4831BF78D9000A38C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Google searchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaslavskaya.Google-searchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google search.app/Google search";
+			};
+			name = Release;
+		};
+		45B6B4851BF78D9000A38C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Google searchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaslavskaya.Google-searchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Google search";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		45B6B4861BF78D9000A38C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Google searchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaslavskaya.Google-searchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Google search";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45B6B44C1BF78D8F00A38C7C /* Build configuration list for PBXProject "Google search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B6B47C1BF78D9000A38C7C /* Debug */,
+				45B6B47D1BF78D9000A38C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45B6B47E1BF78D9000A38C7C /* Build configuration list for PBXNativeTarget "Google search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B6B47F1BF78D9000A38C7C /* Debug */,
+				45B6B4801BF78D9000A38C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45B6B4811BF78D9000A38C7C /* Build configuration list for PBXNativeTarget "Google searchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B6B4821BF78D9000A38C7C /* Debug */,
+				45B6B4831BF78D9000A38C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45B6B4841BF78D9000A38C7C /* Build configuration list for PBXNativeTarget "Google searchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B6B4851BF78D9000A38C7C /* Debug */,
+				45B6B4861BF78D9000A38C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45B6B4491BF78D8F00A38C7C /* Project object */;
+}
