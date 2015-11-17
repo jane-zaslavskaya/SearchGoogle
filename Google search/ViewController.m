@@ -7,21 +7,63 @@
 //
 
 #import "ViewController.h"
+#import "TableViewProvider.h"
+#import "GoogleSearchService.h"
+#import "WebViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <UITextFieldDelegate>
+
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
+@property (nonatomic, weak) IBOutlet UITextField *textField;
+@property (nonatomic, strong) IBOutlet TableViewProvider *provider;
+@property (nonatomic, strong) GoogleSearchService *searchService;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+#pragma mark - Lifecycle
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.searchService = [[GoogleSearchService alloc] init];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - TextFieldDelegateMethods
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [self.searchService sendRequestWithString:textField.text
+                                 successBlock:^(NSArray *resultArray, NSError *error) {
+                                     
+                                     if (error) {
+                                         
+                                         NSLog(@"Error %@", error.localizedDescription);
+                                     } else {
+                                         
+                                         self.provider.queryObjects = resultArray;
+                                         dispatch_async(dispatch_get_main_queue(), ^{
+                                             [self.tableView reloadData];
+                                         });
+                                     }
+                                 }];
+    [textField endEditing: YES];
+    return YES;
+}
+
+#pragma mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([sender isKindOfClass:[UITableViewCell class]]) {
+        
+         NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+        
+        if ([[segue destinationViewController] isKindOfClass:[WebViewController class]]) {
+            ((WebViewController *)[segue destinationViewController]).queryObject = self.provider.queryObjects[indexPath.row];
+        }
+    }
 }
 
 @end

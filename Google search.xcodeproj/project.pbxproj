@@ -15,6 +15,11 @@
 		45B6B4641BF78D9000A38C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B6B4621BF78D9000A38C7C /* LaunchScreen.storyboard */; };
 		45B6B46F1BF78D9000A38C7C /* Google_searchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B46E1BF78D9000A38C7C /* Google_searchTests.m */; };
 		45B6B47A1BF78D9000A38C7C /* Google_searchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B4791BF78D9000A38C7C /* Google_searchUITests.m */; };
+		45B6B48D1BF7928800A38C7C /* TableViewProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B48C1BF7928800A38C7C /* TableViewProvider.m */; settings = {ASSET_TAGS = (); }; };
+		45B6B4911BF7959E00A38C7C /* GoogleSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B4901BF7959E00A38C7C /* GoogleSearchService.m */; settings = {ASSET_TAGS = (); }; };
+		45B6B4941BF7B16B00A38C7C /* QueryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B4931BF7B16B00A38C7C /* QueryObject.m */; settings = {ASSET_TAGS = (); }; };
+		45B6B4971BF7C58500A38C7C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B4961BF7C58500A38C7C /* WebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		45B6B49A1BF7C5AC00A38C7C /* WebViewProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6B4991BF7C5AC00A38C7C /* WebViewProvider.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		45B6B4751BF78D9000A38C7C /* Google searchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google searchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B6B4791BF78D9000A38C7C /* Google_searchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_searchUITests.m; sourceTree = "<group>"; };
 		45B6B47B1BF78D9000A38C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B6B48B1BF7928800A38C7C /* TableViewProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewProvider.h; sourceTree = "<group>"; };
+		45B6B48C1BF7928800A38C7C /* TableViewProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewProvider.m; sourceTree = "<group>"; };
+		45B6B48F1BF7959E00A38C7C /* GoogleSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleSearchService.h; sourceTree = "<group>"; };
+		45B6B4901BF7959E00A38C7C /* GoogleSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleSearchService.m; sourceTree = "<group>"; };
+		45B6B4921BF7B16B00A38C7C /* QueryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryObject.h; sourceTree = "<group>"; };
+		45B6B4931BF7B16B00A38C7C /* QueryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryObject.m; sourceTree = "<group>"; };
+		45B6B4951BF7C58500A38C7C /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		45B6B4961BF7C58500A38C7C /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		45B6B4981BF7C5AC00A38C7C /* WebViewProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewProvider.h; sourceTree = "<group>"; };
+		45B6B4991BF7C5AC00A38C7C /* WebViewProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +118,10 @@
 			children = (
 				45B6B4571BF78D8F00A38C7C /* AppDelegate.h */,
 				45B6B4581BF78D8F00A38C7C /* AppDelegate.m */,
-				45B6B45A1BF78D8F00A38C7C /* ViewController.h */,
-				45B6B45B1BF78D9000A38C7C /* ViewController.m */,
+				45B6B48A1BF7926200A38C7C /* Provider */,
+				45B6B4891BF7921A00A38C7C /* Controller */,
+				45B6B4871BF791F300A38C7C /* Model */,
+				45B6B48E1BF7958700A38C7C /* Service Layer */,
 				45B6B45D1BF78D9000A38C7C /* Main.storyboard */,
 				45B6B4601BF78D9000A38C7C /* Assets.xcassets */,
 				45B6B4621BF78D9000A38C7C /* LaunchScreen.storyboard */,
@@ -138,6 +155,46 @@
 				45B6B47B1BF78D9000A38C7C /* Info.plist */,
 			);
 			path = "Google searchUITests";
+			sourceTree = "<group>";
+		};
+		45B6B4871BF791F300A38C7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45B6B4921BF7B16B00A38C7C /* QueryObject.h */,
+				45B6B4931BF7B16B00A38C7C /* QueryObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		45B6B4891BF7921A00A38C7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45B6B45A1BF78D8F00A38C7C /* ViewController.h */,
+				45B6B45B1BF78D9000A38C7C /* ViewController.m */,
+				45B6B4951BF7C58500A38C7C /* WebViewController.h */,
+				45B6B4961BF7C58500A38C7C /* WebViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		45B6B48A1BF7926200A38C7C /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				45B6B48B1BF7928800A38C7C /* TableViewProvider.h */,
+				45B6B48C1BF7928800A38C7C /* TableViewProvider.m */,
+				45B6B4981BF7C5AC00A38C7C /* WebViewProvider.h */,
+				45B6B4991BF7C5AC00A38C7C /* WebViewProvider.m */,
+			);
+			name = Provider;
+			sourceTree = "<group>";
+		};
+		45B6B48E1BF7958700A38C7C /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				45B6B48F1BF7959E00A38C7C /* GoogleSearchService.h */,
+				45B6B4901BF7959E00A38C7C /* GoogleSearchService.m */,
+			);
+			name = "Service Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B6B49A1BF7C5AC00A38C7C /* WebViewProvider.m in Sources */,
+				45B6B48D1BF7928800A38C7C /* TableViewProvider.m in Sources */,
+				45B6B4971BF7C58500A38C7C /* WebViewController.m in Sources */,
+				45B6B4911BF7959E00A38C7C /* GoogleSearchService.m in Sources */,
 				45B6B45C1BF78D9000A38C7C /* ViewController.m in Sources */,
 				45B6B4591BF78D8F00A38C7C /* AppDelegate.m in Sources */,
 				45B6B4561BF78D8F00A38C7C /* main.m in Sources */,
+				45B6B4941BF7B16B00A38C7C /* QueryObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
